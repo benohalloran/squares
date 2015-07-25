@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Sudo Squares</string>
+    <string name="play_link" translatable="false">https://play.google.com/store/apps/details?id=com.pseudosudostudios.jdd</string>
+    <string name="gameDirector" translatable="false">Ben O\'Halloran</string>
+    <string name="bug_key" translatable="false">a8675255</string>
+    <string name="about_thankees" translatable="false">Mr. Stephen Patterson, Mrs. Janet Dee, Matt Maffa, Connor, Teddy Finkelstein, Eric Leung, Missy Quiggley</string>
+
+    <string-array name="levels">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string name="pick_difficulty">Chose your level!</string>
+    <string name="title_activity_win">You Win!</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_about">About the Game</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_log_in_facebook">Log into Facebook</string>
+    <string name="get_started">To get started, log in using Google Plus (recommended)</string>
+    <string name="numColorsHint">Number of colors</string>
+    <string name="numColorsMessage">Enter the number of different colors to be used in the next puzzle. In Hard mode 6 colors results in the most difficult puzzles. There can be any number of colors between 2 and 12.</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="levelSelectMessage">Select the level for the new game.</string>
+    <string name="gameDirectorTitle">Game Director</string>
+    <string name="conceptByTile">Concept By</string>
+    <string name="skip_facebook">Don\'t sign in</string>
+    <string name="instructions">Welcome to Sudo Squares! To start a game, choose how many colors you want from a palette for coloring the edges of square tiles. In the game, you try to match the colors of the 12 interior edges in your 3x3 puzzle by either rotating a tile or swapping it with another tile. To rotate a tile clockwise tap once on the tile; to rotate it counter clock-wise double tap the tile. 
+        In Easy mode, the tiles are in the right locations and only need to be rotated. In Medium and Hard modes tile orientations and locations are scrambled. 
+        In a Medium game a tile will glow when it lands in a correct location leading to a complete solution.
+        \nScoring factors in time, number of moves, the difficulty as well as the number of colors in the game. 
+        Six colors generates the most difficult games but can result in your highest score if successful.\nWhen you beat a level, get social by posting a challenge to your Facebook friends!</string>
+    <string name="too_few_colors">You need to have at least 2 colors.</string>
+    <string name="hint_toast">Placing the center tile. Good luck.</string>
+    <string name="facebook_caption">An addicting puzzle game with endless possibilities</string>
+    <string name="instructions_title">Instructions</string>
+    <string name="load_game_prompt">A saved game was found. Would you like to load it? A new game will delete the old saved game.</string>
+    <string name="load_game_title">Load Game</string>
+    <string name="load_game_new">Start a new game</string>
+    <string name="load_game_load">Load the previous game.</string>
+    <string name="share_facebook">Share</string>
+    <string name="moves">Moves</string>
+    <string name="time">Time</string>
+    <string name="score">Score</string>
+    <string name="play_again_button">Play Again?</string>
+    <string name="tile_color_hint">Number of colors</string>
+    <string name="high_scores">High Scores</string>
+    <string name="no_long">Long press is disabled in easy mode. You don\'t need to swap the tiles.</string>
+    <string name="about">About</string>
+    <string name="new_game">New Game</string>
+    <string name="allow">Allowed</string>
+    <string name="dont_allow">Not Allowed</string>
+    <string name="title_activity_ggames">Google Play Games</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="show_leaderboards">Google Play Leaderboards</string>
+    <string name="show_achievements">Google Play Achievements </string>
+    <string name="log_in_google">Sign in with Google for leaderboards and achievements!</string>
+    <string name="achievement_toast">Have you unlocked all the achievements yet?</string>
+    <string name="leaderboard_toast">Are you first place in all the leaderboards? Keep trying!</string>
+    <string name="sign_out_google">Log Out</string>
+    <string name="back_press_toast">Hit the back button again to start a new game.</string>
+    <string name="share_prompt">Enter a status (optional)</string>
+    <string name="no_sign_in">In order to share your scores, you must sign in to either Google+</string>
+    <string name="both">Both</string>
+    <string name="enter_social_message_hint">&quot;Enter your message (optional)&quot;</string>
+    <string name="instructions_word">Instructions</string>
+    <string name="win">Win</string>
+</resources>

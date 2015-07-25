@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="MyClassz" pattern="(src[Squares]:*..*||src[common]:*..*||src[app]:*..*)&amp;&amp;!src[BaseGameUtils]:*..*&amp;&amp;!test[BaseGameUtils]:*..*&amp;&amp;!src[app]:*.R" />
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015. Ben O'Halloran/Pseudo Sudo Studios.
+  ~ All rights reserved.
+  ~ This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+  ~ Full license can be found here: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US
+  -->
+
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Material.Light">
+        <!-- <item name="android:navigationBarColor">#000088</item>
+            TODO material themeing on the action bar
+         <item name="android:colorPrimary">#000088</item> -->
+    </style>
+</resources>

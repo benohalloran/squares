@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015. Ben O'Halloran/Pseudo Sudo Studios.
+  ~ All rights reserved.
+  ~ This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+  ~ Full license can be found here: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/about"
+        android:id="@+id/action_about"/>
+    <item
+        android:id="@+id/action_achievements"
+        android:title="@string/show_achievements"/>
+    <item
+        android:id="@+id/action_leaderboards"
+        android:title="@string/show_leaderboards"/>
+
+</menu>

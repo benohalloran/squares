@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                tools:context=".WinActivity">
+
+    <TextView
+        android:id="@+id/selection_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_activity_win"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/display_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selection_user_name"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/moveTextStatic"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/moves"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="3dp"/>
+
+            <TextView
+                android:id="@+id/movesDisplay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <TextView
+                android:id="@+id/color_prompt_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/score"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="3dp"/>
+
+            <TextView
+                android:id="@+id/scoreDisplay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/timeTextStatic"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="3dp"/>
+
+            <TextView
+                android:id="@+id/timeDisplay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="3dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/display_root"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttons"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/social_share"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/share_facebook"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_out_google"
+            android:layout_weight="1"
+            android:id="@+id/sign_out_button"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button_google_play_services"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"/>
+
+        <Button
+            android:id="@+id/playAgainButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/play_again_button"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/high_score_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/buttons"/>
+</RelativeLayout>
